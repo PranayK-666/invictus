@@ -1,8 +1,8 @@
-faq-section  {
+/* faq-section  {
   display: block;
   margin-bottom: 20px;
   padding: 20px 16%;
-}
+} */
 .faq-list {
   display: flex-box;
   padding-top: 40px;
@@ -115,5 +115,13 @@ faq-section  {
   }
   .faq-list {
     padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .faq-section  {
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px 16%;
   }
 }
