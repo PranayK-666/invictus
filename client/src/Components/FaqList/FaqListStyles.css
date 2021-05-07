@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
-
-.faq-section  {
+/* faq-section  {
   display: block;
   margin-bottom: 20px;
   padding: 20px 16%;
-}
+} */
 .faq-list {
   display: flex-box;
   padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .faq-section .faq {
   padding: 16px;
@@ -115,5 +115,13 @@
   }
   .faq-list {
     padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .faq-section  {
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px 16%;
   }
 }

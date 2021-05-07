@@ -11,20 +11,19 @@ const useStyles = makeStyles({
         background: '#1B1430',/* fallback for old browsers */
         background: '-webkit-linear-gradient(to top, #3c1053, #ad5389)', /* Chrome 10-25, Safari 5.1-6 */
         background: 'linear-gradient(to top,#642A7F, #1B1430)', /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
         height: '100vh',
         width: '100%',
     },
     header: {
-        marginTop: '60px',
-        padding: '20px',
+        paddingTop: '150px',
+
         color: '#FFFFFF',
-        fontSize: '3rem',
+        fontSize: '2.5rem',
         display: 'flex',
         justifyContent: 'center',
         fontFamily: 'Rajdhani',
         fontStyle: 'normal',
-        fontWeight: '400',
+        fontWeight: 'bold',
     }
 })
 
